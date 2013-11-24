@@ -12,10 +12,8 @@ namespace :data do
 			:lat  => row[1].to_f,
 			:lng  => row[2].to_f
 			}
-				Pizza.create( value )
-				puts value.inspect
+			Pizza.create( value )
+			puts value.inspect
 	end
-
 	end
-
 end
